@@ -7,73 +7,39 @@
 Ⅰ. Problem Formulation
 
 Input Signal
-
 ![https://blog.kakaocdn.net/dn/bHhkRB/btqLxvA3e3Z/crzT7ZpRkNA8RdkbESxEYk/img.jpg](https://blog.kakaocdn.net/dn/bHhkRB/btqLxvA3e3Z/crzT7ZpRkNA8RdkbESxEYk/img.jpg)
-
 Output Signal
-
 ![https://blog.kakaocdn.net/dn/uCWgT/btqLzF4cQrz/LjLsfr3uC1iPo4oFUwCWh1/img.jpg](https://blog.kakaocdn.net/dn/uCWgT/btqLzF4cQrz/LjLsfr3uC1iPo4oFUwCWh1/img.jpg)
-
 ![https://blog.kakaocdn.net/dn/bBRuZd/btqLwLRFQeT/ukNOIlwhfvzkoKKqR65NEk/img.jpg](https://blog.kakaocdn.net/dn/bBRuZd/btqLwLRFQeT/ukNOIlwhfvzkoKKqR65NEk/img.jpg)
-
 : arbitrary amplitude,
-
 ![https://blog.kakaocdn.net/dn/ts144/btqLvfsooI7/1TWo7oqoQSEER6RxEcw9E1/img.jpg](https://blog.kakaocdn.net/dn/ts144/btqLvfsooI7/1TWo7oqoQSEER6RxEcw9E1/img.jpg)
-
 : arbitrary phase
-
 FIR Filter length : 12
-
 Ⅱ. Report
-
 입력신호에서 가장 큰 주파수 f = 300Hz 이며 Nyquist 정리에 의하면 입력 신호의 최대 주파수보다 최소한 2배는 빠르게 샘플링해야 본래 신호를 충분히 재현할 수 있기 때문에 샘플링주파수를 600Hz 으로 잡았다.
-
 따라서
-
 ![https://blog.kakaocdn.net/dn/bwRwUE/btqLyKLqYoN/wJhLxgEtmujfghRiS3g7J0/img.jpg](https://blog.kakaocdn.net/dn/bwRwUE/btqLyKLqYoN/wJhLxgEtmujfghRiS3g7J0/img.jpg)
-
 가 되며
-
 ![https://blog.kakaocdn.net/dn/TFTSy/btqLxuoy5Va/Sld1jRpRNuerS2ymOjGDu0/img.jpg](https://blog.kakaocdn.net/dn/TFTSy/btqLxuoy5Va/Sld1jRpRNuerS2ymOjGDu0/img.jpg)
-
 가 된다.
-
 ![https://blog.kakaocdn.net/dn/bbPHg2/btqLzXctXGn/CAfBfEumInm1E1yXL0PkC1/img.jpg](https://blog.kakaocdn.net/dn/bbPHg2/btqLzXctXGn/CAfBfEumInm1E1yXL0PkC1/img.jpg)
-
 은 주파수가
-
 ![https://blog.kakaocdn.net/dn/cfCDFk/btqLA4Ca23e/xWQc2KtYanTTel4hf0ppp0/img.jpg](https://blog.kakaocdn.net/dn/cfCDFk/btqLA4Ca23e/xWQc2KtYanTTel4hf0ppp0/img.jpg)
-
 일 때의 값만 나타나므로 FIR 필터에서 유일하게
-
 ![https://blog.kakaocdn.net/dn/bIrs1T/btqLvfsooJd/tmTdgZAn6uCf1Z3qP2gHoK/img.jpg](https://blog.kakaocdn.net/dn/bIrs1T/btqLvfsooJd/tmTdgZAn6uCf1Z3qP2gHoK/img.jpg)
-
 인 지점에만 영점이 없음을 예상할 수 있다.
-
 FIR Filter 의 길이가 12 로 주어졌으므로
-
 ![https://blog.kakaocdn.net/dn/YHo3N/btqLxvVhl91/f1gTwuwz2NQK3bIzKkiqe1/img.jpg](https://blog.kakaocdn.net/dn/YHo3N/btqLxvVhl91/f1gTwuwz2NQK3bIzKkiqe1/img.jpg)
-
 이다.
-
 ![https://blog.kakaocdn.net/dn/2z7sM/btqLzXQ34fK/jQkVoOT94lggAQ6KBKY0s1/img.jpg](https://blog.kakaocdn.net/dn/2z7sM/btqLzXQ34fK/jQkVoOT94lggAQ6KBKY0s1/img.jpg)
-
 이며 위 아래에
-
 ![https://blog.kakaocdn.net/dn/mICBx/btqLvFqOxOE/KLg8SH2OoAf9RhnuLOpbN1/img.jpg](https://blog.kakaocdn.net/dn/mICBx/btqLvFqOxOE/KLg8SH2OoAf9RhnuLOpbN1/img.jpg)
-
 를 곱해주면
-
 ![https://blog.kakaocdn.net/dn/ba7KXw/btqLxv8NVpf/oFbmNKCWqascIo5nSrEGmK/img.jpg](https://blog.kakaocdn.net/dn/ba7KXw/btqLxv8NVpf/oFbmNKCWqascIo5nSrEGmK/img.jpg)
-
 이 된다.
-
 ![https://blog.kakaocdn.net/dn/bZQ2Gd/btqLwLRFQeZ/qveWunKy2E1sZLQRMfoKh0/img.jpg](https://blog.kakaocdn.net/dn/bZQ2Gd/btqLwLRFQeZ/qveWunKy2E1sZLQRMfoKh0/img.jpg)
-
 을 해로 가지므로
-
 ![https://blog.kakaocdn.net/dn/TqpUs/btqLzF4cQrM/KVvyaCc3NXgTeiVUPLIQoK/img.jpg](https://blog.kakaocdn.net/dn/TqpUs/btqLzF4cQrM/KVvyaCc3NXgTeiVUPLIQoK/img.jpg)
-
 이다.
 
 따라서
