@@ -3,6 +3,7 @@
 설계의 구성요소와 현실적 제한조건 고려여부
 
 Ⅰ. Problem Formulation
+
 Input Signal
 ![https://blog.kakaocdn.net/dn/bHhkRB/btqLxvA3e3Z/crzT7ZpRkNA8RdkbESxEYk/img.jpg](https://blog.kakaocdn.net/dn/bHhkRB/btqLxvA3e3Z/crzT7ZpRkNA8RdkbESxEYk/img.jpg)
 Output Signal
@@ -12,7 +13,9 @@ Output Signal
 ![https://blog.kakaocdn.net/dn/ts144/btqLvfsooI7/1TWo7oqoQSEER6RxEcw9E1/img.jpg](https://blog.kakaocdn.net/dn/ts144/btqLvfsooI7/1TWo7oqoQSEER6RxEcw9E1/img.jpg)
 : arbitrary phase
 FIR Filter length : 12
+
 Ⅱ. Report
+
 입력신호에서 가장 큰 주파수 f = 300Hz 이며 Nyquist 정리에 의하면 입력 신호의 최대 주파수보다 최소한 2배는 빠르게 샘플링해야 본래 신호를 충분히 재현할 수 있기 때문에 샘플링주파수를 600Hz 으로 잡았다.
 따라서
 ![https://blog.kakaocdn.net/dn/bwRwUE/btqLyKLqYoN/wJhLxgEtmujfghRiS3g7J0/img.jpg](https://blog.kakaocdn.net/dn/bwRwUE/btqLyKLqYoN/wJhLxgEtmujfghRiS3g7J0/img.jpg)
