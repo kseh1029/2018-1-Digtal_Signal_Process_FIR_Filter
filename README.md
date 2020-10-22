@@ -1,7 +1,5 @@
 # **Design FIR filter**
 
-[Untitled](https://www.notion.so/69b1ac9fc9694814aea32568db965a18)
-
 설계의 구성요소와 현실적 제한조건 고려여부
 
 Ⅰ. Problem Formulation
@@ -100,26 +98,19 @@ Z 대신에
 ![https://blog.kakaocdn.net/dn/zDf4A/btqLyKLqYEb/u3fukoGjZ4xarKKR305tM0/img.jpg](https://blog.kakaocdn.net/dn/zDf4A/btqLyKLqYEb/u3fukoGjZ4xarKKR305tM0/img.jpg)
 의 그래프를 Matlab 에 도시화 하면 다음과 같다.
 ![https://blog.kakaocdn.net/dn/dE9JUf/btqLA2RTrO8/QdVIWpNGjvPLV9fPJ8q7tk/img.jpg](https://blog.kakaocdn.net/dn/dE9JUf/btqLA2RTrO8/QdVIWpNGjvPLV9fPJ8q7tk/img.jpg)
-[Untitled](https://www.notion.so/8c3e7b677d984dedbff20a0e710d06d6)
 ![https://blog.kakaocdn.net/dn/KwqCO/btqLyLjh1Hu/jQQk9cZsagPQBnmjQanVN0/img.jpg](https://blog.kakaocdn.net/dn/KwqCO/btqLyLjh1Hu/jQQk9cZsagPQBnmjQanVN0/img.jpg)
 의 그래프를 Matlab 에 도시화 하면 다음과 같다.
 ![https://blog.kakaocdn.net/dn/SRESU/btqLzYbmilG/XBGq3RizOqAX0kzjoEvYg1/img.jpg](https://blog.kakaocdn.net/dn/SRESU/btqLzYbmilG/XBGq3RizOqAX0kzjoEvYg1/img.jpg)
-[Untitled](https://www.notion.so/ae0ed4e8b0844c208769909bfd060200)
 ![https://blog.kakaocdn.net/dn/dqm16P/btqLweNis8r/72sNKkrDmNSNooU5xDQwj0/img.jpg](https://blog.kakaocdn.net/dn/dqm16P/btqLweNis8r/72sNKkrDmNSNooU5xDQwj0/img.jpg)
 ![https://blog.kakaocdn.net/dn/7Jwo3/btqLzYh9PKY/hZ44rCsyEcfCVbIIkVnNpK/img.jpg](https://blog.kakaocdn.net/dn/7Jwo3/btqLzYh9PKY/hZ44rCsyEcfCVbIIkVnNpK/img.jpg)
 의 주파수 응답을 Matlab 에 도시화 하면 다음과 같다.
-[Untitled](https://www.notion.so/af5540ea8fea44beadd025cda2bc1c18)
-[Untitled](https://www.notion.so/590b3b83558549c9959e259569e37daa)
 ![https://blog.kakaocdn.net/dn/ldE6C/btqLAzPV8p2/W7NxolYcb488MXFThod0t1/img.jpg](https://blog.kakaocdn.net/dn/ldE6C/btqLAzPV8p2/W7NxolYcb488MXFThod0t1/img.jpg)
 필터의 주파수 응답을 Matlab 에 도시화 하면 다음과 같다.
 ![https://blog.kakaocdn.net/dn/lh8aq/btqLA4a6ZzT/MUeJpU2rvIWc5vklkJKzHk/img.jpg](https://blog.kakaocdn.net/dn/lh8aq/btqLA4a6ZzT/MUeJpU2rvIWc5vklkJKzHk/img.jpg)
 필터의 임펄스 응답을 Matlab 에 도시화 하면 다음과 같다.
-[Untitled](https://www.notion.so/397acf72440f4ed498018de9bf0425d3)
 ![https://blog.kakaocdn.net/dn/bc5c6F/btqLveNL7hD/SgOYJ507w6D5aJhblyQZe0/img.jpg](https://blog.kakaocdn.net/dn/bc5c6F/btqLveNL7hD/SgOYJ507w6D5aJhblyQZe0/img.jpg)
 ![https://blog.kakaocdn.net/dn/b0n2EW/btqLA3J2kG0/urlfwDpzOa9cyeEun4mgc1/img.jpg](https://blog.kakaocdn.net/dn/b0n2EW/btqLA3J2kG0/urlfwDpzOa9cyeEun4mgc1/img.jpg)
 의 그래프를 Matlab 에 도시화 하면 다음과 같다.
-[Untitled](https://www.notion.so/f45eb2bdf6674443b4570276298e17b6)
 ![https://blog.kakaocdn.net/dn/mg4ZE/btqLzGIMFFj/vfWoRXSQClGPatGdQFvxt1/img.jpg](https://blog.kakaocdn.net/dn/mg4ZE/btqLzGIMFFj/vfWoRXSQClGPatGdQFvxt1/img.jpg)
 의 그래프를 Matlab 에 도시화 하면 다음과 같다
 ![https://blog.kakaocdn.net/dn/bD7ODY/btqLwd8FMWZ/GJ8h7iAgMKFKk3PlPwAEJk/img.jpg](https://blog.kakaocdn.net/dn/bD7ODY/btqLwd8FMWZ/GJ8h7iAgMKFKk3PlPwAEJk/img.jpg)
-[Untitled](https://www.notion.so/b2a4e52abbc34e8580eea375c60c5618)
